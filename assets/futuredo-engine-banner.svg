@@ -1,0 +1,74 @@
+<svg width="1400" height="430" viewBox="0 0 1400 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.36" stop-color="#101A3D"/>
+      <stop offset="0.7" stop-color="#111827"/>
+      <stop offset="1" stop-color="#042F2E"/>
+    </linearGradient>
+    <radialGradient id="pulseA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1110 110) rotate(132) scale(470 330)">
+      <stop stop-color="#22D3EE" stop-opacity="0.58"/>
+      <stop offset="0.45" stop-color="#2563EB" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pulseB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 330) rotate(-24) scale(420 250)">
+      <stop stop-color="#A855F7" stop-opacity="0.48"/>
+      <stop offset="0.55" stop-color="#F97316" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neon" x1="220" y1="90" x2="1180" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.13 0 0 0 0 0.83 0 0 0 0 1 0 0 0 0.8 0"/>
+      <feBlend in2="SourceGraphic" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#94A3B8" stroke-opacity="0.08"/>
+    </pattern>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 0H8V1H0V0Z" fill="#E2E8F0" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="430" rx="34" fill="url(#bg)"/>
+  <rect width="1400" height="430" rx="34" fill="url(#pulseA)"/>
+  <rect width="1400" height="430" rx="34" fill="url(#pulseB)"/>
+  <rect x="24" y="24" width="1352" height="382" rx="28" stroke="url(#neon)" stroke-opacity="0.55" stroke-width="2"/>
+  <rect width="1400" height="430" rx="34" fill="url(#grid)"/>
+  <rect width="1400" height="430" rx="34" fill="url(#scan)"/>
+
+  <g opacity="0.9">
+    <path d="M92 86H238M92 86V168M1308 86H1162M1308 86V168M92 344H238M92 344V262M1308 344H1162M1308 344V262" stroke="#67E8F9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1085 214C1085 157.667 1130.67 112 1187 112C1243.33 112 1289 157.667 1289 214C1289 270.333 1243.33 316 1187 316C1130.67 316 1085 270.333 1085 214Z" stroke="#22D3EE" stroke-opacity="0.45" stroke-width="2"/>
+    <path d="M1135 214H1239M1187 162V266" stroke="#22C55E" stroke-opacity="0.7" stroke-width="2"/>
+    <path d="M1110 214C1128 180 1161 160 1196 164C1230 168 1257 195 1262 229" stroke="#A78BFA" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <text x="90" y="150" fill="#E0F2FE" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="28" font-weight="700">ENGINE PROFILE ONLINE</text>
+    <text x="90" y="244" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="84" font-weight="900" letter-spacing="3">FUTUREDO</text>
+    <text x="96" y="296" fill="#BAE6FD" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="30" font-weight="700">UNITY | UNREAL | RENDERING | TOOLS | AI | FULL STACK</text>
+  </g>
+
+  <g>
+    <rect x="96" y="326" width="176" height="42" rx="12" fill="#020617" fill-opacity="0.72" stroke="#38BDF8" stroke-opacity="0.65"/>
+    <text x="124" y="354" fill="#E0F2FE" font-family="JetBrains Mono, monospace" font-size="18" font-weight="700">GAMEPLAY</text>
+    <rect x="292" y="326" width="180" height="42" rx="12" fill="#020617" fill-opacity="0.72" stroke="#A78BFA" stroke-opacity="0.65"/>
+    <text x="319" y="354" fill="#EDE9FE" font-family="JetBrains Mono, monospace" font-size="18" font-weight="700">SHADERS</text>
+    <rect x="492" y="326" width="178" height="42" rx="12" fill="#020617" fill-opacity="0.72" stroke="#22C55E" stroke-opacity="0.65"/>
+    <text x="521" y="354" fill="#DCFCE7" font-family="JetBrains Mono, monospace" font-size="18" font-weight="700">PIPELINE</text>
+    <rect x="690" y="326" width="150" height="42" rx="12" fill="#020617" fill-opacity="0.72" stroke="#FB923C" stroke-opacity="0.65"/>
+    <text x="724" y="354" fill="#FFEDD5" font-family="JetBrains Mono, monospace" font-size="18" font-weight="700">AI OPS</text>
+  </g>
+
+  <g opacity="0.9">
+    <text x="1052" y="354" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="16">frame budget</text>
+    <rect x="1052" y="364" width="230" height="12" rx="6" fill="#0F172A" stroke="#334155"/>
+    <rect x="1052" y="364" width="168" height="12" rx="6" fill="#22C55E"/>
+    <text x="1052" y="390" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="16">build status: playable</text>
+  </g>
+</svg>
