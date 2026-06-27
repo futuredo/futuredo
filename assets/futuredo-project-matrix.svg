@@ -1,0 +1,81 @@
+<svg width="1400" height="520" viewBox="0 0 1400 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.48" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="70" y1="72" x2="1320" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.28" stop-color="#22C55E"/>
+      <stop offset="0.54" stop-color="#F97316"/>
+      <stop offset="0.76" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#93C5FD" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="520" rx="34" fill="url(#bg)"/>
+  <rect width="1400" height="520" rx="34" fill="url(#grid)"/>
+  <rect x="24" y="24" width="1352" height="472" rx="30" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.65"/>
+
+  <text x="70" y="76" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="900">Featured Project Matrix</text>
+  <text x="70" y="112" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="800">shipping software, playable prototypes, realtime scenes, native tools</text>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <g transform="translate(70 150)">
+      <rect width="600" height="130" rx="24" fill="#020617" fill-opacity="0.76" stroke="#38BDF8" stroke-opacity="0.72"/>
+      <circle cx="70" cy="66" r="36" fill="#38BDF8" fill-opacity="0.15" stroke="#38BDF8" stroke-width="2"/>
+      <path d="M51 69C57 49 83 49 89 69C83 88 57 88 51 69Z" fill="#38BDF8" fill-opacity="0.25"/>
+      <path d="M59 74C67 81 77 81 85 74" stroke="#E0F2FE" stroke-width="4" stroke-linecap="round"/>
+      <text x="130" y="45" fill="#E0F2FE" font-size="25" font-weight="900">Voice of the Heart</text>
+      <text x="130" y="76" fill="#CBD5E1" font-size="17" font-weight="700">macOS music visualizer with lyrics, presets, photo carousel and DMG release</text>
+      <text x="130" y="106" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="900">Electron / Canvas / Audio Reactive / Creative Coding</text>
+      <animateTransform attributeName="transform" type="translate" values="70 150;70 144;70 150" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(730 150)">
+      <rect width="600" height="130" rx="24" fill="#020617" fill-opacity="0.76" stroke="#22C55E" stroke-opacity="0.72"/>
+      <circle cx="70" cy="66" r="36" fill="#22C55E" fill-opacity="0.14" stroke="#22C55E" stroke-width="2"/>
+      <path d="M58 83L70 44L83 83" stroke="#DCFCE7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M60 71H80" stroke="#22C55E" stroke-width="5" stroke-linecap="round"/>
+      <text x="130" y="45" fill="#DCFCE7" font-size="25" font-weight="900">SparkKeeper iOS</text>
+      <text x="130" y="76" fill="#CBD5E1" font-size="17" font-weight="700">native iOS habit and spark tracking tool with OCR and shortcuts direction</text>
+      <text x="130" y="106" fill="#22C55E" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="900">SwiftUI / Vision / App Intents / Productivity</text>
+      <animateTransform attributeName="transform" type="translate" values="730 150;730 143;730 150" dur="4.3s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(70 320)">
+      <rect width="600" height="130" rx="24" fill="#020617" fill-opacity="0.76" stroke="#F97316" stroke-opacity="0.72"/>
+      <circle cx="70" cy="66" r="36" fill="#F97316" fill-opacity="0.14" stroke="#F97316" stroke-width="2"/>
+      <path d="M52 66H88" stroke="#FED7AA" stroke-width="6" stroke-linecap="round"/>
+      <path d="M70 48V84" stroke="#FED7AA" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="70" cy="66" r="10" fill="#F97316"/>
+      <text x="130" y="45" fill="#FED7AA" font-size="25" font-weight="900">DidaDida iOS</text>
+      <text x="130" y="76" fill="#CBD5E1" font-size="17" font-weight="700">attendance analysis and work-time calculator built as a clean mobile utility</text>
+      <text x="130" y="106" fill="#F97316" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="900">Swift / Storage / Tests / Time Engine</text>
+      <animateTransform attributeName="transform" type="translate" values="70 320;70 313;70 320" dur="4.2s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(730 320)">
+      <rect width="600" height="130" rx="24" fill="#020617" fill-opacity="0.76" stroke="#A855F7" stroke-opacity="0.72"/>
+      <circle cx="70" cy="66" r="36" fill="#A855F7" fill-opacity="0.14" stroke="#A855F7" stroke-width="2"/>
+      <path d="M48 82L70 43L92 82H48Z" fill="#A855F7" fill-opacity="0.23" stroke="#F5D0FE" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M62 72H78" stroke="#F5D0FE" stroke-width="4" stroke-linecap="round"/>
+      <text x="130" y="45" fill="#E9D5FF" font-size="25" font-weight="900">Sanxingdui Museum UE5</text>
+      <text x="130" y="76" fill="#CBD5E1" font-size="17" font-weight="700">digital exhibition scene with UMG interaction, walkable space and showcase build</text>
+      <text x="130" y="106" fill="#A855F7" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="900">Unreal Engine 5 / UMG / Scene Design / Tech Art</text>
+      <animateTransform attributeName="transform" type="translate" values="730 320;730 312;730 320" dur="4.5s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <path d="M70 482H1330" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="28 18" opacity="0.75" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-460" dur="6s" repeatCount="indefinite"/>
+  </path>
+</svg>
