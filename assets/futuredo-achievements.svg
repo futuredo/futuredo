@@ -1,0 +1,78 @@
+<svg width="1400" height="300" viewBox="0 0 1400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#042F2E"/>
+    </linearGradient>
+    <linearGradient id="line" x1="80" y1="40" x2="1320" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.32" stop-color="#A78BFA"/>
+      <stop offset="0.66" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#94A3B8" stroke-opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="300" rx="30" fill="url(#bg)"/>
+  <rect width="1400" height="300" rx="30" fill="url(#grid)"/>
+  <rect x="24" y="24" width="1352" height="252" rx="26" stroke="url(#line)" stroke-width="2" stroke-opacity="0.72"/>
+
+  <text x="70" y="74" fill="#E0F2FE" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="900">ACHIEVEMENT BOARD // PROFILE BADGES</text>
+  <text x="70" y="112" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">Multi-domain builder with game engine instincts</text>
+
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="900" filter="url(#glow)">
+    <g transform="translate(70 152)">
+      <rect width="185" height="82" rx="18" fill="#020617" fill-opacity="0.82" stroke="#38BDF8"/>
+      <circle cx="38" cy="41" r="18" fill="#38BDF8" fill-opacity="0.2" stroke="#38BDF8"/>
+      <text x="70" y="35" fill="#E0F2FE">ENGINE</text>
+      <text x="70" y="58" fill="#94A3B8">Unity / UE</text>
+      <animateTransform attributeName="transform" type="translate" values="70 152;70 145;70 152" dur="2.8s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(292 152)">
+      <rect width="185" height="82" rx="18" fill="#020617" fill-opacity="0.82" stroke="#A78BFA"/>
+      <circle cx="38" cy="41" r="18" fill="#A78BFA" fill-opacity="0.2" stroke="#A78BFA"/>
+      <text x="70" y="35" fill="#EDE9FE">AI STACK</text>
+      <text x="70" y="58" fill="#94A3B8">LLM / RAG</text>
+      <animateTransform attributeName="transform" type="translate" values="292 152;292 144;292 152" dur="3s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(514 152)">
+      <rect width="185" height="82" rx="18" fill="#020617" fill-opacity="0.82" stroke="#22C55E"/>
+      <circle cx="38" cy="41" r="18" fill="#22C55E" fill-opacity="0.2" stroke="#22C55E"/>
+      <text x="70" y="35" fill="#DCFCE7">FULL STACK</text>
+      <text x="70" y="58" fill="#94A3B8">Web / API</text>
+      <animateTransform attributeName="transform" type="translate" values="514 152;514 146;514 152" dur="2.6s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(736 152)">
+      <rect width="185" height="82" rx="18" fill="#020617" fill-opacity="0.82" stroke="#F97316"/>
+      <circle cx="38" cy="41" r="18" fill="#F97316" fill-opacity="0.2" stroke="#F97316"/>
+      <text x="70" y="35" fill="#FFEDD5">APPLE DEV</text>
+      <text x="70" y="58" fill="#94A3B8">Swift / Metal</text>
+      <animateTransform attributeName="transform" type="translate" values="736 152;736 143;736 152" dur="3.2s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(958 152)">
+      <rect width="185" height="82" rx="18" fill="#020617" fill-opacity="0.82" stroke="#DB2777"/>
+      <circle cx="38" cy="41" r="18" fill="#DB2777" fill-opacity="0.2" stroke="#DB2777"/>
+      <text x="70" y="35" fill="#FCE7F3">DCC / VFX</text>
+      <text x="70" y="58" fill="#94A3B8">3D / Video</text>
+      <animateTransform attributeName="transform" type="translate" values="958 152;958 145;958 152" dur="2.9s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1180 152)">
+      <rect width="150" height="82" rx="18" fill="#020617" fill-opacity="0.82" stroke="#14B8A6"/>
+      <circle cx="34" cy="41" r="18" fill="#14B8A6" fill-opacity="0.2" stroke="#14B8A6"/>
+      <text x="64" y="35" fill="#CCFBF1">HARDWARE</text>
+      <text x="64" y="58" fill="#94A3B8">PC / Device</text>
+      <animateTransform attributeName="transform" type="translate" values="1180 152;1180 144;1180 152" dur="3.1s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <path d="M72 250H1328" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-dasharray="24 18" opacity="0.7">
+    <animate attributeName="stroke-dashoffset" values="0;-420" dur="7s" repeatCount="indefinite"/>
+  </path>
+</svg>
