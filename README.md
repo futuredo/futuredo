@@ -392,8 +392,25 @@ FivePointsChess/          C# board-game implementation
 ## GitHub Radar
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-metrics-core.svg" alt="futuredo runtime dashboard" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-contribution-flow.svg" alt="futuredo contribution flow" />
+</p>
+
+<p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=futuredo&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="futuredo stats" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=futuredo&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="futuredo top languages" />
+</p>
+
+<p align="center">
+  <img height="170" src="https://streak-stats.demolab.com?user=futuredo&theme=tokyonight&hide_border=true&mode=weekly" alt="futuredo streak stats" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=futuredo&theme=tokyonight&utcOffset=8" alt="futuredo productive time" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=futuredo&theme=tokyonight" alt="futuredo profile details" />
 </p>
 
 <p align="center">
