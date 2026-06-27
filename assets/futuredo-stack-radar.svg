@@ -1,0 +1,84 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1400" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.3" stop-color="#0F172A"/>
+      <stop offset="0.62" stop-color="#111827"/>
+      <stop offset="1" stop-color="#042F2E"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="120" y1="80" x2="1280" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.34" stop-color="#A78BFA"/>
+      <stop offset="0.68" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <radialGradient id="radar" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(702 394) rotate(90) scale(360 520)">
+      <stop stop-color="#38BDF8" stop-opacity="0.36"/>
+      <stop offset="0.55" stop-color="#7C3AED" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.2 0 0 0 0 0.8 0 0 0 0 1 0 0 0 0.8 0"/>
+      <feBlend in2="SourceGraphic" mode="screen"/>
+    </filter>
+    <pattern id="mesh" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#94A3B8" stroke-opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="760" rx="36" fill="url(#panel)"/>
+  <rect width="1400" height="760" rx="36" fill="url(#radar)"/>
+  <rect width="1400" height="760" rx="36" fill="url(#mesh)"/>
+  <rect x="28" y="28" width="1344" height="704" rx="30" stroke="url(#stroke)" stroke-opacity="0.7" stroke-width="2"/>
+
+  <text x="82" y="96" fill="#E0F2FE" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="800">FULL-SPECTRUM TECH OPERATOR</text>
+  <text x="82" y="150" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="900">Game Engine x AI x Full Stack x Hardware</text>
+  <text x="86" y="190" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">From gameplay loops to LLM pipelines, from desktop apps to device-level hardware instincts.</text>
+
+  <g transform="translate(700 408)" filter="url(#softGlow)">
+    <circle r="242" stroke="#38BDF8" stroke-opacity="0.18" stroke-width="2"/>
+    <circle r="182" stroke="#A78BFA" stroke-opacity="0.2" stroke-width="2"/>
+    <circle r="122" stroke="#22C55E" stroke-opacity="0.2" stroke-width="2"/>
+    <circle r="62" stroke="#F97316" stroke-opacity="0.2" stroke-width="2"/>
+    <path d="M0 -246V246M-246 0H246M-174 -174L174 174M174 -174L-174 174" stroke="#64748B" stroke-opacity="0.22"/>
+    <path d="M0 -224L170 -114L218 66L74 204L-132 174L-226 0L-136 -184Z" fill="#38BDF8" fill-opacity="0.12" stroke="#38BDF8" stroke-width="4"/>
+    <path d="M0 -190L132 -92L178 48L60 160L-110 136L-176 -8L-92 -148Z" fill="#A78BFA" fill-opacity="0.11" stroke="#A78BFA" stroke-width="3"/>
+    <circle r="15" fill="#F8FAFC"/>
+    <text x="-78" y="8" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="22" font-weight="900">futuredo</text>
+  </g>
+
+  <g font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="19" font-weight="800">
+    <rect x="78" y="250" width="352" height="86" rx="20" fill="#020617" fill-opacity="0.78" stroke="#38BDF8" stroke-opacity="0.7"/>
+    <text x="106" y="286" fill="#E0F2FE">GAME ENGINES</text>
+    <text x="106" y="316" fill="#94A3B8">Unity / Unreal / C# / C++</text>
+
+    <rect x="78" y="362" width="352" height="86" rx="20" fill="#020617" fill-opacity="0.78" stroke="#A78BFA" stroke-opacity="0.7"/>
+    <text x="106" y="398" fill="#EDE9FE">AI SYSTEMS</text>
+    <text x="106" y="428" fill="#94A3B8">LLM / RAG / Agents / CV</text>
+
+    <rect x="78" y="474" width="352" height="86" rx="20" fill="#020617" fill-opacity="0.78" stroke="#22C55E" stroke-opacity="0.7"/>
+    <text x="106" y="510" fill="#DCFCE7">SOFTWARE</text>
+    <text x="106" y="540" fill="#94A3B8">Web / Mini Program / Desktop</text>
+
+    <rect x="78" y="586" width="352" height="86" rx="20" fill="#020617" fill-opacity="0.78" stroke="#F97316" stroke-opacity="0.7"/>
+    <text x="106" y="622" fill="#FFEDD5">HARDWARE</text>
+    <text x="106" y="652" fill="#94A3B8">PC / Mobile / Device / OS</text>
+
+    <rect x="970" y="250" width="352" height="86" rx="20" fill="#020617" fill-opacity="0.78" stroke="#38BDF8" stroke-opacity="0.7"/>
+    <text x="998" y="286" fill="#E0F2FE">RENDERING</text>
+    <text x="998" y="316" fill="#94A3B8">HLSL / VFX / Profiling</text>
+
+    <rect x="970" y="362" width="352" height="86" rx="20" fill="#020617" fill-opacity="0.78" stroke="#A78BFA" stroke-opacity="0.7"/>
+    <text x="998" y="398" fill="#EDE9FE">BACKEND</text>
+    <text x="998" y="428" fill="#94A3B8">Node / Python / API / DB</text>
+
+    <rect x="970" y="474" width="352" height="86" rx="20" fill="#020617" fill-opacity="0.78" stroke="#22C55E" stroke-opacity="0.7"/>
+    <text x="998" y="510" fill="#DCFCE7">DEVOPS</text>
+    <text x="998" y="540" fill="#94A3B8">Docker / GitHub / Release</text>
+
+    <rect x="970" y="586" width="352" height="86" rx="20" fill="#020617" fill-opacity="0.78" stroke="#F97316" stroke-opacity="0.7"/>
+    <text x="998" y="622" fill="#FFEDD5">PRODUCT</text>
+    <text x="998" y="652" fill="#94A3B8">UI / UX / Tools / Shipping</text>
+  </g>
+</svg>
