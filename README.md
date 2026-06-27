@@ -120,6 +120,42 @@ Assets/GameLab/
     `-- platform-profiling
 ```
 
+## Featured Release
+
+<p align="center">
+  <a href="https://github.com/futuredo/voice-of-the-heart/releases/tag/v0.0.1">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=futuredo&repo=voice-of-the-heart&theme=tokyonight&hide_border=true" alt="Voice of the Heart release" />
+  </a>
+</p>
+
+```text
+Voice of the Heart v0.0.1
+|-- macOS DMG release
+|-- music visualizer
+|-- lyric stage
+|-- photo carousel
+`-- pixel bead preset
+```
+
+## Engine Labs
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <b>Unity Lab</b><br/>
+      gameplay framework, editor tooling, VFX prototypes
+    </td>
+    <td align="center" width="33%">
+      <b>Unreal Lab</b><br/>
+      C++ modules, Blueprint APIs, ability experiments
+    </td>
+    <td align="center" width="33%">
+      <b>Rendering Lab</b><br/>
+      shaders, profiling notes, frame-debug captures
+    </td>
+  </tr>
+</table>
+
 ## GitHub Radar
 
 <p align="center">
