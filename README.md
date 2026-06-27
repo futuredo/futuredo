@@ -1,182 +1,186 @@
 <!-- ========================================================== -->
-<!--  futuredo - Unity / Unreal Engine Game Development Engineer -->
+<!--  futuredo - multi-stack game technology profile             -->
 <!-- ========================================================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0B1020,35:6D28D9,70:2563EB,100:22C55E&text=FUTUREDO&fontAlign=50&fontAlignY=38&fontColor=F8FAFC&fontSize=72&desc=Unity%20%2F%20Unreal%20Engine%20Game%20Developer&descAlign=50&descAlignY=61&descSize=20&animation=fadeIn" alt="futuredo banner" />
+  <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-engine-banner.svg" alt="futuredo engine profile banner" />
+</p>
+
+<p align="center">
+  <img alt="Unity" src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white"/>
+  <img alt="Unreal Engine" src="https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white"/>
+  <img alt="CSharp" src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white"/>
+  <img alt="CPlusPlus" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+  <img alt="Realtime Rendering" src="https://img.shields.io/badge/Realtime%20Rendering-22C55E?style=for-the-badge"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/futuredo">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2400&pause=700&color=38BDF8&center=true&vCenter=true&width=980&lines=Gameplay+Systems+%E2%80%A2+Engine+Tools+%E2%80%A2+Realtime+Rendering;Unity+%2B+Unreal+Engine+Developer;C%23+%2F+C%2B%2B+%2F+Blueprints+%2F+Shader+Pipelines;Building+playable+worlds%2C+not+just+features" alt="typing animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=25&duration=2300&pause=650&color=38BDF8&center=true&vCenter=true&width=1100&lines=Game+Developer+%2F+Technical+Artist+%2F+Tools+Engineer;Unity+%2B+Unreal+%2B+Rendering+%2B+Full+Stack;C%23+Gameplay+%7C+C%2B%2B+Systems+%7C+HLSL+Shaders+%7C+AI+Tooling;I+build+playable+systems+with+engine-level+thinking" alt="typing profile" />
   </a>
 </p>
 
-<p align="center">
-  <img alt="role" src="https://img.shields.io/badge/Game%20Development-Engineer-111827?style=for-the-badge&logo=gamemaker&logoColor=white"/>
-  <img alt="unity" src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white"/>
-  <img alt="unreal" src="https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white"/>
-  <img alt="realtime" src="https://img.shields.io/badge/Realtime%20Interactive-Worlds-22C55E?style=for-the-badge"/>
-</p>
+<br/>
 
-<p align="center">
-  <img alt="csharp" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white"/>
-  <img alt="cplusplus" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-  <img alt="blueprints" src="https://img.shields.io/badge/Blueprints-137CBD?style=flat-square&logo=unrealengine&logoColor=white"/>
-  <img alt="hlsl" src="https://img.shields.io/badge/HLSL-2DD4BF?style=flat-square"/>
-  <img alt="shadergraph" src="https://img.shields.io/badge/Shader%20Graph-7C3AED?style=flat-square"/>
-  <img alt="tools" src="https://img.shields.io/badge/Editor%20Tools-F97316?style=flat-square"/>
-  <img alt="performance" src="https://img.shields.io/badge/Performance%20First-16A34A?style=flat-square"/>
-</p>
-
----
+## Command Center
 
 ```cpp
-// boot_profile.cpp
-Developer futuredo {
-    role        = "Game Development Engineer";
-    engines     = { "Unity", "Unreal Engine" };
-    languages   = { "C#", "C++", "Blueprints", "HLSL" };
-    specialty   = {
-        "Gameplay Architecture",
-        "Combat / Interaction Prototypes",
-        "Editor Tooling",
-        "Realtime Visual Systems",
-        "Optimization & Profiling",
-        "Player-First Game Feel"
+// futuredo_profile.cpp
+struct EngineerProfile {
+    string role = "Game Development Engineer";
+    string core = "Unity / Unreal / Realtime Interactive Systems";
+
+    vector<string> engines = {
+        "Unity", "Unreal Engine", "Custom gameplay runtime thinking"
     };
 
-    while (idea.isPlayable() == false) {
-        prototype.fast();
-        profile.frameTime();
-        polish.feedback();
-        ship.nextBuild();
-    }
-}
-```
+    vector<string> stack = {
+        "C#", "C++", "Blueprints", "HLSL", "ShaderLab",
+        "TypeScript", "Electron", "Node.js", "Python",
+        "Blender", "Docker", "CI/CD", "AI assisted tools"
+    };
 
-## Engine Console
+    vector<string> output = {
+        "playable prototypes",
+        "combat and interaction systems",
+        "editor tools",
+        "visual effects",
+        "music and UI experiments",
+        "performance notes"
+    };
+};
+```
 
 <table>
   <tr>
     <td width="50%" valign="top">
 
-### Unity Runtime
+### Unity Engineering
 
-- Gameplay framework, state machines, ability flow
-- URP / HDRP visual polish and shader-driven effects
+- C# gameplay architecture, input, camera, interaction loops
+- URP / HDRP visual direction, Shader Graph, post-processing
 - Timeline, Cinemachine, animation events, UI motion
-- Editor windows, custom inspectors, build utilities
-- Addressables, asset pipeline, profiling workflow
+- EditorWindow, custom inspector, validation and build tools
+- Addressables, asset workflow, profiling and frame-time discipline
 
     </td>
     <td width="50%" valign="top">
 
-### Unreal Runtime
+### Unreal Engineering
 
 - C++ gameplay modules and Blueprint-facing APIs
-- GAS-style ability thinking and interaction logic
-- Materials, Niagara, cinematic sequencing
-- UMG interface flow and input architecture
-- Performance budgets, memory discipline, packaging
+- Ability, combat, interaction, UI and input architecture
+- Materials, Niagara, Sequencer and cinematic language
+- Packaging, performance budgets, memory and platform constraints
+- Production-style thinking: tools first, polish always
+
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### Rendering / VFX
+
+- HLSL, ShaderLab, material graphs and stylized looks
+- Lighting, camera feel, feedback timing and readability
+- RenderDoc, frame debugger, overdraw and GPU cost checks
+- Visual systems that react to music, input and gameplay state
+
+    </td>
+    <td width="50%" valign="top">
+
+### Full Stack / Tools
+
+- TypeScript, Electron, Node.js, local APIs and desktop apps
+- Python scripts, automation, build helpers and data pipelines
+- Docker, GitHub Releases, private labs and devlog workflow
+- AI-assisted coding workflow for faster iteration
 
     </td>
   </tr>
 </table>
 
-## Tech Loadout
+## Tech Arsenal
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=unity,unreal,cs,cpp,dotnet,visualstudio,rider,vscode,git,github,blender,cmake,python,js,html,css" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=unity,unreal,cs,cpp,dotnet,visualstudio,rider,vscode,git,github,blender,cmake,python,ts,js,nodejs,electron,react,html,css,docker,linux" alt="tech icons" />
 </p>
 
 <p align="center">
-  <img alt="FMOD" src="https://img.shields.io/badge/FMOD-Audio%20Middleware-111827?style=for-the-badge"/>
-  <img alt="Wwise" src="https://img.shields.io/badge/Wwise-Interactive%20Audio-334155?style=for-the-badge"/>
-  <img alt="Perforce" src="https://img.shields.io/badge/Perforce-Team%20Pipeline-2563EB?style=for-the-badge"/>
-  <img alt="RenderDoc" src="https://img.shields.io/badge/RenderDoc-GPU%20Debugging-7C3AED?style=for-the-badge"/>
+  <img alt="Gameplay" src="https://img.shields.io/badge/Gameplay%20Systems-111827?style=flat-square"/>
+  <img alt="Editor Tools" src="https://img.shields.io/badge/Editor%20Tools-2563EB?style=flat-square"/>
+  <img alt="Shader Pipeline" src="https://img.shields.io/badge/Shader%20Pipeline-7C3AED?style=flat-square"/>
+  <img alt="Technical Art" src="https://img.shields.io/badge/Technical%20Art-DB2777?style=flat-square"/>
+  <img alt="Performance" src="https://img.shields.io/badge/Performance%20Profiling-16A34A?style=flat-square"/>
+  <img alt="Build Pipeline" src="https://img.shields.io/badge/Build%20Pipeline-F97316?style=flat-square"/>
+  <img alt="AI Tools" src="https://img.shields.io/badge/AI%20Tools-0F766E?style=flat-square"/>
+  <img alt="VR AR" src="https://img.shields.io/badge/VR%20%2F%20AR-0891B2?style=flat-square"/>
 </p>
 
-## What I Build
-
-```text
-Assets/GameLab/
-|-- Gameplay/
-|   |-- input-feel
-|   |-- combat-loop
-|   |-- camera-rig
-|   `-- ability-runtime
-|-- Rendering/
-|   |-- shader-experiments
-|   |-- vfx-prototypes
-|   `-- cinematic-lighting
-|-- Tools/
-|   |-- editor-automation
-|   |-- asset-validation
-|   `-- build-pipeline
-`-- Optimization/
-    |-- frame-debug
-    |-- memory-budget
-    `-- platform-profiling
-```
-
-## Featured Release
-
-<p align="center">
-  <a href="https://github.com/futuredo/voice-of-the-heart/releases/tag/v0.0.1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=futuredo&repo=voice-of-the-heart&theme=tokyonight&hide_border=true" alt="Voice of the Heart release" />
-  </a>
-</p>
-
-```text
-Voice of the Heart v0.0.1
-|-- macOS DMG release
-|-- music visualizer
-|-- lyric stage
-|-- photo carousel
-`-- pixel bead preset
-```
-
-## Engine Labs
+## Featured Build
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <b>Unity Lab</b><br/>
-      gameplay framework, editor tooling, VFX prototypes
+    <td width="58%" valign="top">
+
+### Voice of the Heart
+
+macOS music visualizer experiment with lyrics stage, visual presets, custom image effects, photo carousel and pixel bead style rendering.
+
+- Release: [v0.0.1 macOS DMG](https://github.com/futuredo/voice-of-the-heart/releases/tag/v0.0.1)
+- Stack: Electron, JavaScript, Canvas, Web Audio style visualization, macOS packaging
+- Direction: creative coding, music interaction, visual stage design
+
     </td>
-    <td align="center" width="33%">
-      <b>Unreal Lab</b><br/>
-      C++ modules, Blueprint APIs, ability experiments
-    </td>
-    <td align="center" width="33%">
-      <b>Rendering Lab</b><br/>
-      shaders, profiling notes, frame-debug captures
+    <td width="42%" valign="top">
+
+```text
+VoiceOfTheHeart/
+|-- lyric-stage
+|-- visual-presets
+|-- photo-carousel
+|-- pixel-beads
+|-- macos-dmg
+`-- release-v0.0.1
+```
+
     </td>
   </tr>
 </table>
+
+## Lab Matrix
+
+```text
+futuredo-unity-lab/       private gameplay and editor tooling lab
+futuredo-unreal-lab/      private C++ / Blueprint / interaction lab
+futuredo-rendering-lab/   private shader, VFX and profiling lab
+voice-of-the-heart/       public macOS release channel
+interview-app/            Unity interview and training platform
+FivePointsChess/          C# board-game implementation
+```
 
 ## GitHub Radar
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=futuredo&theme=algolia&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub trophies" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=futuredo&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="futuredo stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=futuredo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="futuredo top languages" />
 </p>
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=futuredo&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" />
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=futuredo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+  <img src="https://github-profile-trophy.vercel.app/?username=futuredo&theme=algolia&no-frame=true&no-bg=true&row=1&column=7" alt="futuredo trophies" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=futuredo&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Signal" alt="GitHub activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=futuredo&theme=react-dark&hide_border=true&area=true&custom_title=Signal%20From%20The%20Build%20Room" alt="futuredo activity graph" />
 </p>
 
-## Current Quest Log
+## Current Questline
 
-- Build compact, replayable prototypes that actually feel good in hand.
-- Turn messy editor workflows into fast tools artists and designers can trust.
-- Study rendering, animation timing, camera language, and combat feedback.
-- Keep shipping small playable slices instead of waiting for perfect conditions.
+- Build more playable slices instead of empty ideas.
+- Turn repeated engine work into reusable tools.
+- Study rendering, combat feedback, camera language and UI motion.
+- Keep private labs active with real experiments, devlogs and captures.
+- Ship small but polished builds that people can actually run.
 
 ---
 
@@ -185,5 +189,5 @@ Voice of the Heart v0.0.1
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:22C55E,45:2563EB,100:6D28D9" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:22C55E,45:2563EB,100:6D28D9" alt="footer" />
 </p>
