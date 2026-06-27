@@ -1,0 +1,93 @@
+<svg width="1400" height="560" viewBox="0 0 1400 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="560">
+      <stop stop-color="#030712"/>
+      <stop offset="0.42" stop-color="#111827"/>
+      <stop offset="1" stop-color="#052E2B"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1050 250) rotate(126) scale(360)">
+      <stop stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#7C3AED" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+    <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse">
+      <path d="M0 0H6V1H0V0Z" fill="#E2E8F0" fill-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="560" rx="34" fill="url(#bg)"/>
+  <rect width="1400" height="560" rx="34" fill="url(#orb)"/>
+  <rect width="1400" height="560" rx="34" fill="url(#scan)"/>
+  <rect x="28" y="28" width="1344" height="504" rx="28" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="2"/>
+
+  <text x="72" y="82" fill="#E0F2FE" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="800">SHADER FORGE // RENDER PIPELINE</text>
+  <text x="72" y="128" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="900">Material Graph -> Lighting -> Post FX -> Player Feedback</text>
+
+  <g transform="translate(72 166)">
+    <rect width="560" height="314" rx="22" fill="#020617" fill-opacity="0.86" stroke="#334155"/>
+    <rect x="0" y="0" width="560" height="42" rx="22" fill="#111827"/>
+    <circle cx="28" cy="21" r="7" fill="#EF4444"/>
+    <circle cx="52" cy="21" r="7" fill="#F59E0B"/>
+    <circle cx="76" cy="21" r="7" fill="#22C55E"/>
+    <text x="108" y="27" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="15">futuredo_shader.hlsl</text>
+    <text x="28" y="82" fill="#64748B" font-family="JetBrains Mono, Consolas, monospace" font-size="16">01</text>
+    <text x="72" y="82" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="16">float3</text>
+    <text x="142" y="82" fill="#F8FAFC" font-family="JetBrains Mono, Consolas, monospace" font-size="16">GameplayGlow(float3 normal, float beat)</text>
+    <text x="28" y="114" fill="#64748B" font-family="JetBrains Mono, Consolas, monospace" font-size="16">02</text>
+    <text x="72" y="114" fill="#F8FAFC" font-family="JetBrains Mono, Consolas, monospace" font-size="16">{</text>
+    <text x="28" y="146" fill="#64748B" font-family="JetBrains Mono, Consolas, monospace" font-size="16">03</text>
+    <text x="72" y="146" fill="#A78BFA" font-family="JetBrains Mono, Consolas, monospace" font-size="16">float rim</text>
+    <text x="172" y="146" fill="#F8FAFC" font-family="JetBrains Mono, Consolas, monospace" font-size="16">= pow(1.0 - saturate(normal.z), 3.0);</text>
+    <text x="28" y="178" fill="#64748B" font-family="JetBrains Mono, Consolas, monospace" font-size="16">04</text>
+    <text x="72" y="178" fill="#A78BFA" font-family="JetBrains Mono, Consolas, monospace" font-size="16">float pulse</text>
+    <text x="190" y="178" fill="#F8FAFC" font-family="JetBrains Mono, Consolas, monospace" font-size="16">= smoothstep(.25, 1.0, beat);</text>
+    <text x="28" y="210" fill="#64748B" font-family="JetBrains Mono, Consolas, monospace" font-size="16">05</text>
+    <text x="72" y="210" fill="#22C55E" font-family="JetBrains Mono, Consolas, monospace" font-size="16">return</text>
+    <text x="142" y="210" fill="#F8FAFC" font-family="JetBrains Mono, Consolas, monospace" font-size="16">lerp(_Base, _Neon, rim * pulse);</text>
+    <text x="28" y="242" fill="#64748B" font-family="JetBrains Mono, Consolas, monospace" font-size="16">06</text>
+    <text x="72" y="242" fill="#F8FAFC" font-family="JetBrains Mono, Consolas, monospace" font-size="16">}</text>
+    <rect x="70" y="258" width="365" height="3" rx="1.5" fill="#38BDF8" opacity="0.85">
+      <animate attributeName="width" values="90;365;180;430;120;365" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(710 164)" filter="url(#glow)">
+    <circle cx="250" cy="158" r="122" fill="#020617" fill-opacity="0.7" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="2"/>
+    <circle cx="250" cy="158" r="86" fill="none" stroke="#A78BFA" stroke-width="2" stroke-dasharray="8 12">
+      <animateTransform attributeName="transform" type="rotate" from="0 250 158" to="360 250 158" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="158" r="46" fill="none" stroke="#22C55E" stroke-width="3" stroke-dasharray="10 8">
+      <animateTransform attributeName="transform" type="rotate" from="360 250 158" to="0 250 158" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M154 242C206 162 290 144 366 76" stroke="#38BDF8" stroke-width="5" stroke-linecap="round" opacity="0.78"/>
+    <path d="M132 118C214 144 286 194 372 232" stroke="#A78BFA" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
+    <circle cx="154" cy="242" r="12" fill="#38BDF8">
+      <animate attributeName="r" values="8;15;8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="366" cy="76" r="11" fill="#22C55E">
+      <animate attributeName="r" values="7;14;7" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="372" cy="232" r="10" fill="#F97316">
+      <animate attributeName="r" values="7;13;7" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="132" cy="118" r="10" fill="#A78BFA">
+      <animate attributeName="r" values="7;13;7" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="154" y="342" fill="#F8FAFC" font-family="JetBrains Mono, Consolas, monospace" font-size="19" font-weight="800">render graph: base pass -> lighting -> post -> feedback</text>
+  </g>
+
+  <g transform="translate(752 438)" font-family="JetBrains Mono, Consolas, monospace">
+    <rect width="560" height="58" rx="16" fill="#020617" fill-opacity="0.76" stroke="#334155"/>
+    <text x="24" y="36" fill="#94A3B8" font-size="16">GPU markers</text>
+    <rect x="156" y="21" width="82" height="16" rx="8" fill="#38BDF8"/>
+    <rect x="250" y="21" width="146" height="16" rx="8" fill="#A78BFA"/>
+    <rect x="408" y="21" width="72" height="16" rx="8" fill="#22C55E"/>
+    <rect x="492" y="21" width="42" height="16" rx="8" fill="#F97316">
+      <animate attributeName="width" values="32;58;42;68;36;42" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
