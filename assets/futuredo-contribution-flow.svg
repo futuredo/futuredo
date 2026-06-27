@@ -1,0 +1,72 @@
+<svg width="1400" height="270" viewBox="0 0 1400 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.48" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="80" y1="40" x2="1320" y2="225" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.28" stop-color="#22C55E"/>
+      <stop offset="0.52" stop-color="#F59E0B"/>
+      <stop offset="0.77" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#67E8F9" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="270" rx="30" fill="url(#bg)"/>
+  <rect width="1400" height="270" rx="30" fill="url(#grid)"/>
+  <rect x="22" y="22" width="1356" height="226" rx="26" stroke="#38BDF8" stroke-opacity="0.24"/>
+
+  <text x="70" y="67" fill="#E0F2FE" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="900">CONTRIBUTION STREAM // GAMEPLAY ENERGY ROUTE</text>
+  <text x="70" y="101" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Prototype -> debug -> polish -> ship -> learn -> rebuild stronger</text>
+
+  <g opacity="0.9">
+    <path d="M80 164 C190 102 285 218 392 158 S612 94 724 154 S942 218 1056 152 S1232 98 1320 160" stroke="url(#flow)" stroke-width="16" stroke-linecap="round" stroke-dasharray="32 28" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" values="0;-360" dur="4.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M80 164 C190 102 285 218 392 158 S612 94 724 154 S942 218 1056 152 S1232 98 1320 160" stroke="#E0F2FE" stroke-opacity="0.34" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 18">
+      <animate attributeName="stroke-dashoffset" values="0;-220" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="13" font-weight="900">
+    <g transform="translate(90 185)">
+      <circle cx="0" cy="0" r="13" fill="#38BDF8" filter="url(#glow)"/>
+      <text x="-35" y="38" fill="#BAE6FD">IDEA</text>
+      <animateTransform attributeName="transform" type="translate" values="90 185;90 172;90 185" dur="2.5s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(305 132)">
+      <circle cx="0" cy="0" r="13" fill="#22C55E" filter="url(#glow)"/>
+      <text x="-48" y="-24" fill="#BBF7D0">PLAYTEST</text>
+      <animateTransform attributeName="transform" type="translate" values="305 132;305 119;305 132" dur="2.8s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(535 176)">
+      <circle cx="0" cy="0" r="13" fill="#F59E0B" filter="url(#glow)"/>
+      <text x="-40" y="39" fill="#FEF3C7">FRAME</text>
+      <animateTransform attributeName="transform" type="translate" values="535 176;535 162;535 176" dur="2.6s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(760 128)">
+      <circle cx="0" cy="0" r="13" fill="#A855F7" filter="url(#glow)"/>
+      <text x="-42" y="-24" fill="#E9D5FF">SHADER</text>
+      <animateTransform attributeName="transform" type="translate" values="760 128;760 115;760 128" dur="3s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1000 183)">
+      <circle cx="0" cy="0" r="13" fill="#EF4444" filter="url(#glow)"/>
+      <text x="-36" y="38" fill="#FECACA">SHIP</text>
+      <animateTransform attributeName="transform" type="translate" values="1000 183;1000 170;1000 183" dur="2.7s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1240 126)">
+      <circle cx="0" cy="0" r="13" fill="#06B6D4" filter="url(#glow)"/>
+      <text x="-42" y="-24" fill="#CFFAFE">REBUILD</text>
+      <animateTransform attributeName="transform" type="translate" values="1240 126;1240 113;1240 126" dur="3.1s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
