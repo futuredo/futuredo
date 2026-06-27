@@ -493,7 +493,7 @@ FivePointsChess/          C# board-game implementation
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=futuredo&theme=tokyonight" alt="futuredo profile details" />
+  <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-profile-core.svg" alt="futuredo public profile core" />
 </p>
 
 <p align="center">
