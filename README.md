@@ -489,7 +489,7 @@ FivePointsChess/          C# board-game implementation
 
 <p align="center">
   <img height="170" src="https://streak-stats.demolab.com?user=futuredo&theme=tokyonight&hide_border=true&mode=weekly" alt="futuredo streak stats" />
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=futuredo&theme=tokyonight&utcOffset=8" alt="futuredo productive time" />
+  <img height="170" src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-build-clock.svg" alt="futuredo build rhythm" />
 </p>
 
 <p align="center">
