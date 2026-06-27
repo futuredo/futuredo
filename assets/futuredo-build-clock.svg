@@ -1,0 +1,33 @@
+<svg width="680" height="220" viewBox="0 0 680 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="680" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="arc" x1="80" y1="42" x2="600" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+  </defs>
+  <rect width="680" height="220" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="678" height="218" rx="17" stroke="#334155"/>
+  <text x="40" y="52" fill="#E0F2FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">Build Rhythm</text>
+  <text x="40" y="84" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="800">Asia/Shanghai creative engineering loop</text>
+  <g transform="translate(116 146)" filter="url(#glow)">
+    <rect x="0" y="-34" width="58" height="68" rx="12" fill="#0F172A" stroke="#38BDF8"/>
+    <rect x="80" y="-48" width="58" height="82" rx="12" fill="#0F172A" stroke="#22C55E"/>
+    <rect x="160" y="-24" width="58" height="58" rx="12" fill="#0F172A" stroke="#F97316"/>
+    <rect x="240" y="-62" width="58" height="96" rx="12" fill="#0F172A" stroke="#A855F7"/>
+    <rect x="320" y="-42" width="58" height="76" rx="12" fill="#0F172A" stroke="#14B8A6"/>
+    <rect x="400" y="-54" width="58" height="88" rx="12" fill="#0F172A" stroke="#EF4444"/>
+    <path d="M16 6C96 -52 171 4 252 -42S372 -4 450 -56" stroke="url(#arc)" stroke-width="5" stroke-linecap="round" stroke-dasharray="20 14">
+      <animate attributeName="stroke-dashoffset" values="0;-220" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="40" y="198" fill="#67E8F9" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="900">prototype -> debug -> polish -> ship</text>
+</svg>
