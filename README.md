@@ -126,6 +126,89 @@ profile futuredo {
   <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-shader-forge.svg" alt="futuredo shader forge" />
 </p>
 
+## Featured Projects
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-project-matrix.svg" alt="futuredo featured project matrix" />
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+### Voice of the Heart
+
+Creative desktop music visualizer with lyrics, visual presets, custom image upload, photo carousel, pixel-bead rendering and macOS DMG distribution.
+
+- Repo: [futuredo/voice-of-the-heart](https://github.com/futuredo/voice-of-the-heart)
+- Release: [v0.0.1 macOS DMG](https://github.com/futuredo/voice-of-the-heart/releases/tag/v0.0.1)
+- Stack: Electron, JavaScript, Canvas, audio-reactive visuals
+- Signal: a real shipped desktop app, not just a code sample
+
+    </td>
+    <td width="50%" valign="top">
+
+### SparkKeeper iOS
+
+Native iOS spark tracker for keeping small ideas alive, designed around fast capture, OCR direction, reminders and App Intents style automation.
+
+- Repo: [futuredo/sparkkeeper-ios](https://github.com/futuredo/sparkkeeper-ios)
+- Stack: SwiftUI, Vision direction, App Intents direction, local-first storage
+- Status: scheduled open-source release
+- Signal: native mobile product thinking and Apple ecosystem practice
+
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### DidaDida iOS
+
+Attendance and work-time analysis utility focused on clean calculation logic, mobile workflow, data persistence and practical productivity.
+
+- Repo: [futuredo/didadida-ios](https://github.com/futuredo/didadida-ios)
+- Stack: Swift, SwiftUI, tests, domain calculation logic
+- Status: scheduled open-source release
+- Signal: small but useful product with testable business rules
+
+    </td>
+    <td width="50%" valign="top">
+
+### Sanxingdui Museum UE5 Showcase
+
+Unreal Engine digital exhibition scene: walkable museum space, UMG interaction, scene presentation, technical art notes and a clean public showcase package.
+
+- Repo: [futuredo/sanxingdui-museum-ue5-showcase](https://github.com/futuredo/sanxingdui-museum-ue5-showcase)
+- Stack: Unreal Engine 5, UMG, C++, scene design, technical art
+- Status: scheduled clean showcase release
+- Signal: realtime 3D environment and game-engine production pipeline
+
+    </td>
+  </tr>
+</table>
+
+## Game Developer Showcase
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-game-dev-showcase.svg" alt="futuredo game developer showcase" />
+</p>
+
+```text
+        player-facing polish
+              ^
+              |
+gameplay -> feedback -> rendering
+   |            |            |
+ camera      UI/UX        shader
+ combat      tools        VFX
+ input       AI assist    profiling
+```
+
+- Gameplay engineering: input feel, combat loop, camera feedback, state machines, interaction systems.
+- Engine-side work: Unity tools, Unreal gameplay modules, editor workflows, packaging and release habits.
+- Rendering and technical art: shaders, material language, post effects, VFX readability and frame-budget awareness.
+- AI production pipeline: LLM, RAG, agents and automation as tools for faster building, debugging and content work.
+
 ## Tech Constellation
 
 <table>
