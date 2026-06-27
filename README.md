@@ -11,6 +11,7 @@
   <img alt="Unreal Engine" src="https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white"/>
   <img alt="AI" src="https://img.shields.io/badge/AI%20Systems-111827?style=for-the-badge&logo=openai&logoColor=white"/>
   <img alt="Full Stack" src="https://img.shields.io/badge/Full%20Stack-2563EB?style=for-the-badge"/>
+  <img alt="Apple Ecosystem" src="https://img.shields.io/badge/Apple%20Ecosystem-000000?style=for-the-badge&logo=apple&logoColor=white"/>
   <img alt="Hardware" src="https://img.shields.io/badge/Hardware%20Fluent-F97316?style=for-the-badge"/>
 </p>
 
@@ -46,8 +47,9 @@ futuredo = 游戏引擎开发 / AI 应用 / 全栈软件 / DCC 内容生产 / �
 |-- Gameplay 工程师：玩法系统、角色控制、镜头手感、战斗反馈、UI 动效
 |-- 引擎向开发者：Unity / Unreal / C# / C++ / Blueprint / Shader / 工具链
 |-- AI 工具构建者：LLM、RAG、Agents、向量数据库、CV、多模态、自动化
-|-- 软件开发者：C#、C++、Java、Python、Go、TypeScript、JavaScript、Lua、Kotlin
-|-- 产品开发者：Web、后端、桌面应用、小程序、移动端、发布工程
+|-- 软件开发者：C#、C++、Java、Python、Go、TypeScript、JavaScript、Lua、Kotlin、Swift、Objective-C
+|-- 苹果生态：iOS、macOS、watchOS、visionOS、SwiftUI、UIKit、AppKit、Metal、ARKit、RealityKit
+|-- 产品开发者：Web、后端、桌面应用、小程序、移动端、Apple App、发布工程
 |-- 技术美术向：DCC、渲染、VFX、材质、后期、动效、内容管线
 `-- 硬件系统玩家：PC、手机、外设、系统、驱动、网络、性能诊断
 ```
@@ -69,7 +71,8 @@ futuredo = 游戏引擎开发 / AI 应用 / 全栈软件 / DCC 内容生产 / �
 ### AI / 软件 / 硬件
 
 - AI：LLM、RAG、Agents、Embedding、Vector DB、CV、Stable Diffusion、ComfyUI
-- 软件：Java、Python、Go、TypeScript、JavaScript、C#、C++、Node.js、Electron、React、Vue、API、数据库
+- 软件：Java、Python、Go、TypeScript、JavaScript、C#、C++、Swift、Objective-C、Node.js、Electron、React、Vue、API、数据库
+- 苹果生态：Xcode、SwiftUI、UIKit、AppKit、Core Data、Metal、ARKit、RealityKit、TestFlight、App Store Connect
 - 移动/小程序：微信小程序、uni-app、Taro、Android、iOS、Flutter、跨端产品思维
 - 硬件系统：PC/手机硬件、嵌入式、Arduino、ESP32、STM32、Linux、Docker、网络与性能诊断
 
@@ -102,6 +105,7 @@ profile futuredo {
 
     secondary_axis = {
         "Java / Python / Go / TypeScript / JavaScript",
+        "Swift / Objective-C / SwiftUI / UIKit / Metal",
         "web / backend / desktop / mini program",
         "mobile app instincts",
         "hardware, PC, phone and device troubleshooting",
@@ -178,7 +182,7 @@ profile futuredo {
 ## Tech Arsenal
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=unity,unreal,cs,cpp,c,dotnet,java,kotlin,go,python,ts,js,lua,html,css,react,vue,nextjs,nodejs,electron,flutter,androidstudio,swift,visualstudio,rider,vscode,git,github,docker,linux,apple,windows,opencv,pytorch,tensorflow,sqlite,mongodb,redis,nginx,blender,figma,ps,ai,pr,ae" alt="skill icons" />
+  <img src="https://skillicons.dev/icons?i=unity,unreal,godot,cs,cpp,c,dotnet,java,kotlin,go,python,ts,js,lua,swift,html,css,react,vue,nextjs,nodejs,electron,flutter,androidstudio,apple,visualstudio,rider,clion,pycharm,idea,goland,vscode,git,github,githubactions,docker,linux,ubuntu,windows,nginx,redis,mongodb,sqlite,opencv,pytorch,tensorflow,blender,figma,ps,ai,pr,ae" alt="skill icons" />
 </p>
 
 <h3 align="center">Game Engines / Realtime</h3>
@@ -225,6 +229,10 @@ profile futuredo {
   <img alt="Lua" src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white"/>
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
   <img alt="Swift" src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white"/>
+  <img alt="Objective-C" src="https://img.shields.io/badge/Objective--C-1575F9?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="Dart" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
+  <img alt="Shell" src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-336791?style=for-the-badge"/>
   <img alt="CMake" src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white"/>
   <img alt="Visual Studio" src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white"/>
   <img alt="Rider" src="https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=white"/>
@@ -234,6 +242,38 @@ profile futuredo {
   <img alt="GoLand" src="https://img.shields.io/badge/GoLand-000000?style=for-the-badge&logo=goland&logoColor=white"/>
   <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
   <img alt="Xcode" src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white"/>
+  <img alt="Android Studio" src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white"/>
+  <img alt="Cursor" src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge"/>
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+</p>
+
+<h3 align="center">Apple Ecosystem / Native Apps</h3>
+<p align="center">
+  <img alt="Apple" src="https://img.shields.io/badge/Apple%20Developer-000000?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="Swift" src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white"/>
+  <img alt="Objective-C" src="https://img.shields.io/badge/Objective--C-1575F9?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="SwiftUI" src="https://img.shields.io/badge/SwiftUI-0A84FF?style=for-the-badge&logo=swift&logoColor=white"/>
+  <img alt="UIKit" src="https://img.shields.io/badge/UIKit-007AFF?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="AppKit" src="https://img.shields.io/badge/AppKit-111827?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="Metal" src="https://img.shields.io/badge/Metal-8E8E93?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="ARKit" src="https://img.shields.io/badge/ARKit-000000?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="RealityKit" src="https://img.shields.io/badge/RealityKit-5E5CE6?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="SpriteKit" src="https://img.shields.io/badge/SpriteKit-34C759?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="SceneKit" src="https://img.shields.io/badge/SceneKit-30D158?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="Core Data" src="https://img.shields.io/badge/Core%20Data-007AFF?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="Core ML" src="https://img.shields.io/badge/Core%20ML-FF2D55?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="Vision" src="https://img.shields.io/badge/Vision-5856D6?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="Combine" src="https://img.shields.io/badge/Combine-0A84FF?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="iOS" src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="macOS" src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="watchOS" src="https://img.shields.io/badge/watchOS-111827?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="visionOS" src="https://img.shields.io/badge/visionOS-111827?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="tvOS" src="https://img.shields.io/badge/tvOS-111827?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="Xcode" src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white"/>
+  <img alt="TestFlight" src="https://img.shields.io/badge/TestFlight-0A84FF?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="App Store Connect" src="https://img.shields.io/badge/App%20Store%20Connect-0D96F6?style=for-the-badge&logo=appstore&logoColor=white"/>
+  <img alt="SF Symbols" src="https://img.shields.io/badge/SF%20Symbols-000000?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img alt="Instruments" src="https://img.shields.io/badge/Instruments-FF9F0A?style=for-the-badge&logo=apple&logoColor=white"/>
 </p>
 
 <h3 align="center">Software / Web / Backend</h3>
@@ -357,7 +397,7 @@ FivePointsChess/          C# board-game implementation
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=futuredo&theme=algolia&no-frame=true&no-bg=true&row=1&column=7" alt="futuredo trophies" />
+  <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-achievements.svg" alt="futuredo achievements" />
 </p>
 
 <p align="center">
