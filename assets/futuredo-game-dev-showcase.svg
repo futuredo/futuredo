@@ -1,0 +1,78 @@
+<svg width="1400" height="430" viewBox="0 0 1400 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700 225) rotate(90) scale(190 360)">
+      <stop stop-color="#1E293B"/>
+      <stop offset="0.55" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="210" y1="60" x2="1190" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.3" stop-color="#22C55E"/>
+      <stop offset="0.55" stop-color="#F97316"/>
+      <stop offset="0.82" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <filter id="glow" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="430" rx="34" fill="url(#core)"/>
+  <rect width="1400" height="430" rx="34" fill="url(#grid)"/>
+  <rect x="24" y="24" width="1352" height="382" rx="30" stroke="url(#ring)" stroke-width="2" stroke-opacity="0.68"/>
+
+  <text x="70" y="78" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="900">Game Developer Showcase</text>
+  <text x="70" y="112" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="800">gameplay engineering / engine tools / realtime rendering / AI powered pipeline</text>
+
+  <g transform="translate(700 235)" filter="url(#glow)">
+    <circle r="104" fill="#020617" stroke="url(#ring)" stroke-width="4"/>
+    <circle r="72" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="16 12">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="16s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="42" fill="#0F172A" stroke="#22C55E" stroke-width="2"/>
+    <text x="0" y="-8" text-anchor="middle" fill="#F8FAFC" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="900">PLAYER</text>
+    <text x="0" y="19" text-anchor="middle" fill="#67E8F9" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="900">FEEDBACK</text>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="900">
+    <g transform="translate(96 160)">
+      <rect width="275" height="76" rx="18" fill="#020617" fill-opacity="0.78" stroke="#38BDF8"/>
+      <text x="24" y="32" fill="#E0F2FE" font-size="20">Gameplay Systems</text>
+      <text x="24" y="57" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="13">input / combat / camera / state</text>
+    </g>
+    <g transform="translate(1028 160)">
+      <rect width="275" height="76" rx="18" fill="#020617" fill-opacity="0.78" stroke="#22C55E"/>
+      <text x="24" y="32" fill="#DCFCE7" font-size="20">Engine Tools</text>
+      <text x="24" y="57" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="13">editor / workflow / automation</text>
+    </g>
+    <g transform="translate(96 292)">
+      <rect width="275" height="76" rx="18" fill="#020617" fill-opacity="0.78" stroke="#F97316"/>
+      <text x="24" y="32" fill="#FED7AA" font-size="20">Rendering & VFX</text>
+      <text x="24" y="57" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="13">shader / material / post fx</text>
+    </g>
+    <g transform="translate(1028 292)">
+      <rect width="275" height="76" rx="18" fill="#020617" fill-opacity="0.78" stroke="#A855F7"/>
+      <text x="24" y="32" fill="#E9D5FF" font-size="20">AI Pipeline</text>
+      <text x="24" y="57" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="13">agents / RAG / content tools</text>
+    </g>
+  </g>
+
+  <g stroke="url(#ring)" stroke-width="3" stroke-linecap="round" stroke-dasharray="18 16" opacity="0.8">
+    <path d="M371 198C480 178 536 190 596 220">
+      <animate attributeName="stroke-dashoffset" values="0;-160" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1028 198C920 178 864 190 804 220">
+      <animate attributeName="stroke-dashoffset" values="0;-160" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M371 330C482 340 544 306 606 264">
+      <animate attributeName="stroke-dashoffset" values="0;-160" dur="3.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1028 330C918 340 856 306 794 264">
+      <animate attributeName="stroke-dashoffset" values="0;-160" dur="3.1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
