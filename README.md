@@ -27,8 +27,63 @@
 </p>
 
 <p align="center">
+  <a href="#中文版本"><img src="https://img.shields.io/badge/语言-中文版本-EF4444?style=for-the-badge" alt="中文版本" /></a>
+  <a href="#english-version"><img src="https://img.shields.io/badge/Language-English%20Version-38BDF8?style=for-the-badge" alt="English Version" /></a>
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-stack-radar.svg" alt="futuredo stack radar" />
 </p>
+
+<a id="中文版本"></a>
+
+## 中文版本
+
+```text
+futuredo = 游戏引擎开发 / AI 应用 / 全栈软件 / DCC 内容生产 / 硬件系统折腾 的复合型技术栈。
+
+核心身份：
+|-- Gameplay 工程师：玩法系统、角色控制、镜头手感、战斗反馈、UI 动效
+|-- 引擎向开发者：Unity / Unreal / C# / C++ / Blueprint / Shader / 工具链
+|-- AI 工具构建者：LLM、RAG、Agents、向量数据库、CV、多模态、自动化
+|-- 软件开发者：C#、C++、Java、Python、Go、TypeScript、JavaScript、Lua、Kotlin
+|-- 产品开发者：Web、后端、桌面应用、小程序、移动端、发布工程
+|-- 技术美术向：DCC、渲染、VFX、材质、后期、动效、内容管线
+`-- 硬件系统玩家：PC、手机、外设、系统、驱动、网络、性能诊断
+```
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+### 游戏 / 引擎
+
+- Unity：玩法架构、C# 工程、UI、动画、Timeline、Cinemachine、URP / HDRP
+- Unreal：C++ 模块、Blueprint API、UMG、材质、Niagara、Sequencer、打包发布
+- Gameplay：输入手感、战斗循环、技能系统、交互系统、镜头反馈、状态机
+- Rendering：HLSL、ShaderLab、材质图、灯光、后处理、VFX、GPU Profiling
+
+    </td>
+    <td width="50%" valign="top">
+
+### AI / 软件 / 硬件
+
+- AI：LLM、RAG、Agents、Embedding、Vector DB、CV、Stable Diffusion、ComfyUI
+- 软件：Java、Python、Go、TypeScript、JavaScript、C#、C++、Node.js、Electron、React、Vue、API、数据库
+- 移动/小程序：微信小程序、uni-app、Taro、Android、iOS、Flutter、跨端产品思维
+- 硬件系统：PC/手机硬件、嵌入式、Arduino、ESP32、STM32、Linux、Docker、网络与性能诊断
+
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="#english-version"><img src="https://img.shields.io/badge/Jump-English%20Version-38BDF8?style=for-the-badge" alt="Jump to English" /></a>
+</p>
+
+<a id="english-version"></a>
+
+## English Version
 
 ## Neural Command Line
 
@@ -46,6 +101,7 @@ profile futuredo {
     };
 
     secondary_axis = {
+        "Java / Python / Go / TypeScript / JavaScript",
         "web / backend / desktop / mini program",
         "mobile app instincts",
         "hardware, PC, phone and device troubleshooting",
@@ -55,6 +111,16 @@ profile futuredo {
     motto = "If it has pixels, code, signals, chips, players, APIs or models, I can probably make it move.";
 }
 ```
+
+## Engine Visual Systems
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-runtime-loop.svg" alt="futuredo gameplay runtime loop" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-shader-forge.svg" alt="futuredo shader forge" />
+</p>
 
 ## Tech Constellation
 
@@ -144,6 +210,30 @@ profile futuredo {
   <img alt="Ollama" src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge"/>
   <img alt="ComfyUI" src="https://img.shields.io/badge/ComfyUI-111827?style=for-the-badge"/>
   <img alt="Stable Diffusion" src="https://img.shields.io/badge/Stable%20Diffusion-4F46E5?style=for-the-badge"/>
+</p>
+
+<h3 align="center">Languages / IDEs / Engineering Tools</h3>
+<p align="center">
+  <img alt="CSharp" src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white"/>
+  <img alt="CPP" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+  <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img alt="Lua" src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white"/>
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
+  <img alt="Swift" src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white"/>
+  <img alt="CMake" src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white"/>
+  <img alt="Visual Studio" src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white"/>
+  <img alt="Rider" src="https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=white"/>
+  <img alt="CLion" src="https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=white"/>
+  <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
+  <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white"/>
+  <img alt="GoLand" src="https://img.shields.io/badge/GoLand-000000?style=for-the-badge&logo=goland&logoColor=white"/>
+  <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+  <img alt="Xcode" src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white"/>
 </p>
 
 <h3 align="center">Software / Web / Backend</h3>
