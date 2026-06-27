@@ -190,7 +190,7 @@ Unreal Engine digital exhibition scene: walkable museum space, UMG interaction, 
 ## Game Developer Showcase
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-game-dev-showcase.svg" alt="futuredo game developer showcase" />
+  <img src="https://raw.githubusercontent.com/futuredo/futuredo/main/assets/futuredo-game-dev-showcase-v2.svg" alt="futuredo game developer showcase" />
 </p>
 
 ```text
